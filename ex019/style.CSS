@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*
+ em HTMT é id    = em css é # (só pode um elemento)
+ em HTML é class = em css é . (pode vários elementos)
+ */
+body {
+    background-image: linear-gradient(to bottom, #e5f3e2e3, #abf8c1f8);
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #146D2A;
+}
+
+h1#principal {
+    text-align: center;
+    color: #0D4B1D;
+}
+
+h2 {
+    color: rgb(36, 180, 203);
+}
+
+.básico {
+    color: #23DB8B;
+}
+
+.intermediário {
+    color: #1CB170;
+}
+
+.avançado {
+    color: #178F5B;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+footer {
+    background-color: #143fc023;
+    border-width: 2px;
+    border-style:solid;
+    border-color:#9ddbef;
+    margin: 3%;
+}
+body {
+    margin: 10px;
+    background: image(to bottom black);
+    background-color: #cee8f1;
+}
+
+id.texto1 >h1 {
+    font-size: 35px;
+    /* Tamanho do texto em pixels */
+    background: linear-gradient(to right, #0813e3b3, #ffffff); /* Gradiente de laranja para azul */
+    -webkit-background-clip: text; /* Para navegadores Webkit (Chrome, Safari, etc.) */
+    background-clip: text;
+color: transparent; /* Torna o texto transparente */
+}
+img {
+    width: 35% ;
+}
+
+div.imagem {
+    text-align: center;
+
+}
+
+h1 {
+    background-image: linear-gradient(to left, #0f559b23, #1944a0b3);
+    color: rgb(0, 36, 98);
+}
+
+div.agua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2.segundario1 {
+    color: #000071;
+    font-size: 28px;
+    /* Tamanho do texto em pixels */
+}
+
+span {
+    background-color: #ffffff00;
+    color: #00bbff;
+}
+iframe.video1 {
+    width: 85%;
+    ;
+}
+
+div.video1 {
+    text-align: center;
+}
