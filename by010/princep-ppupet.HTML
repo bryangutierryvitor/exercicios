@@ -1,162 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personagens</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            margin-top: -22px;
-            display: flex;
-            justify-content: center;
-            background-color: rgb(0, 0, 0);
-        }
-        
-        #center {
-            background-image: url('backgroud-towerfall.png'); /* Substitua pelo caminho da sua imagem */
-            background-size: cover; /* Para ajustar a imagem ao tamanho da tela */
-            background-position: center; /* Para centralizar a imagem */
-            width: 100%;
-            width: 1200px;
-            
-    
-        }
-
-        id{
-            color: #34deed;
-            text-align: center;
-        }
-
-        h2 {
-            color: #6a2bb3;
-            text-align: center;
-        }
-        p {
-            color: #e1faff;
-        }
-
-        .imgs-local1 {
-            position: relative;
-            display: flex; /* Isso permite que os elementos dentro do container sejam exibidos em uma linha */
-            height: auto; /* Para manter a proporção da imagem */
-                }
-       img.imagem1 {
-        width: 18%;
-        margin-left: 25%;
-       }
-
-    .nome-imagem1 {
-        position: absolute;
-        top: 2%; /* Ajuste conforme necessário */
-        left: 34%; /* Ajuste conforme necessário */
-        transform: translate(-50%, -50%);
-        padding: 10px; /* Espaçamento interno */
-        border-radius: 5px; /* Borda arredondada */
-    }
-
-    .nome-imagem2 {
-        position: absolute;
-        top: 2%; /* Ajuste conforme necessário */
-        left: 70%; /* Ajuste conforme necessário */
-        transform: translate(-50%, -50%);
-        padding: 10px; /* Espaçamento interno */
-        border-radius: 5px; /* Borda arredondada */
-    }
-
-    .corp-prancing {
-        color: #34deed;
-    }
-
-    .corp-vicious{
-        color: #932F72;
-    }
-
-.p-azul {
-    color: #34deed;
-}
-    
-
-       img.imagem2 {
-        width: 15%;
-        margin-left: 20%;
-       }
-
-       li.branco-c {
-        color: #FBF1F9;
-       }
-
-       li.sombra-m {
-        color: #BDB3E8;
-       }
-
-       li.azul-c {
-        color: #79F2DC;
-       }
-
-       li.azul-m{
-        color: #339398;
-       }
-
-       li{
-        color: #191A31;
-       }
-
-       li.roxo-e {
-        color: #A33BBF;
-       }
-
-       li.roxo-c {
-        color:#CF50F2;
-       }
-
-       li.amarelo-c {
-        color: #F6BE3D;
-       }
-
-       li.amarelo-e {
-        color: #E8A329;
-       }
-
-       footer {
-        background-color: rgba(29, 219, 229, 0.204);
-        border-radius: 3%;
-       }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <div id="center">
-        
-    <id>
-        <h1>Meus personagem favoritos</h1>
-    </id>
+
+        <id>
+            <h1>Meus personagens favoritos</h1>
+        </id>
         <div style="margin: 15px;">
             <h2>Sobre</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsam, odit officia nam accusantium nisi corporis omnis ab magni! Eligendi commodi voluptates facilis earum possimus alias natus asperiores numquam deleniti! </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsam, odit officia nam accusantium nisi
+                corporis omnis ab magni! Eligendi commodi voluptates facilis earum possimus alias natus asperiores
+                numquam deleniti! </p>
         </div>
 
         <main>
-        <h2>Fatos sobre ele</h2>
-        <div class="imgs-local1"><img class="imagem1" src="prancing-puppet.png" alt="prancing puppet">
-            <div class="nome-imagem1">
-                <p class="corp-prancing">prancing puppet</p>
+            <h2>Fatos sobre eles</h2>
+            <div class="imgs-local1"><img class="imagem1" src="prancing-puppet.png" alt="prancing puppet">
+                <div class="nome-imagem1">
+                    <p class="corp-prancing">prancing puppet</p>
+                </div>
+
+                <div class="nome-imagem2">
+                    <p class="corp-vicious">vicious-vessel</p>
+                </div>
+
+                <img class="imagem2" src="vicious-vessel2.png" alt="vicious vessel">
             </div>
 
-            <div class="nome-imagem2">
-                <p class="corp-vicious">vicious-vessel</p>
-            </div>
-
-            <img class="imagem2" src="vicious-vessel2.png" alt="vicious vessel"></div>
-
-        <h2>Algo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nemo fugiat qui beatae omnis ducimus officia maiores ratione dicta dignissimos modi numquam consequuntur optio molestias tenetur earum quo, debitis nihil Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, consequuntur ad quidem dolorem assumenda dolor perferendis debitis quisquam harum voluptates animi temporibus, ab nisi autem voluptatum. Quo adipisci molestiae consequuntur.</p>
+            <h2>Algo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nemo fugiat qui beatae omnis ducimus
+                officia maiores ratione dicta dignissimos modi numquam consequuntur optio molestias tenetur earum quo,
+                debitis nihil Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, consequuntur ad quidem
+                dolorem assumenda dolor perferendis debitis quisquam harum voluptates animi temporibus, ab nisi autem
+                voluptatum. Quo adipisci molestiae consequuntur.</p>
         </main>
+
         <footer>
-        <h2>Cores do  </h2>
-        
-            <ul>
+            <div class="cor-h2">
+                <h2 class="cor-h2">Cores dos meus personagens </h2>
+            </div>
+            <ul class="ul-1">
                 <li class="branco-c">#FBF1F9</li>
                 <li class="sombra-m">#BDB3E8</li>
                 <li class="azul-c">#79F2DC</li>
@@ -167,7 +59,20 @@
                 <li class="amarelo-c">#F6BE3D</li>
                 <li class="amarelo-e">#E8A329</li>
             </ul>
-        </footer>
+
+            <ul class="ul-2">
+                <li class="branco-c">#FBF1F9</li>
+                <li class="sombra-m">#BDB3E8</li>
+                <li class="azul-c">#79F2DC</li>
+                <li class="azul-m">#339398</li>
+                <li class="azul-e">#191A31</li>
+                <li class="roxo-c">#CF50F2</li>
+                <li class="roxo-e">#A33BBF</li>
+                <li class="amarelo-c">#F6BE3D</li>
+                <li class="amarelo-e">#E8A329</li>
+            </ul>
     </div>
+    </footer>
 </body>
+
 </html>
