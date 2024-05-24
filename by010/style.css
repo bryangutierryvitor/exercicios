@@ -73,14 +73,8 @@ color: #34deed;
 .corp-vicious{
 color: #932F72;
 }
-/* 
-.p-azul {
-color: #34deed;
-}
- */
-main {
-    
-}
+
+
 img.imagem2 {
 width: 15%;
 margin-left: 30%;
@@ -134,8 +128,8 @@ color: #E8A329;
 
 .cor-h2 {
     background: linear-gradient(135deg, #00eaff, #b23488); /* Define o gradiente */
-  -webkit-background-clip: text; /* Aplica o gradiente ao texto */
-  -webkit-text-fill-color: transparent; /* Define a cor do texto como transparente */
+    -webkit-background-clip: text; /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Define a cor do texto como transparente */
   font-size: 27px; /* Tamanho da fonte */
 }
 
@@ -152,4 +146,6 @@ color: #E8A329;
 footer {
 background-color: rgba(29, 219, 229, 0.204);
 border-radius: 3%;
+margin: 1%;
+padding-bottom:2%;
 }
