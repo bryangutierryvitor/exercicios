@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: -22px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#center {
+    background-image: url('backgroud-towerfall.png');
+    /* Substitua pelo caminho da sua imagem */
+    box-shadow: 0 7px 70px #7611b579;
+    /* Adiciona sombra à imagem */
+    background-size: cover;
+    /* Para ajustar a imagem ao tamanho da tela */
+    background-position: center;
+    /* Para centralizar a imagem */
+    width: 100%;
+    width: 1200px;
+}
+
+h1 {
+    text-shadow: 4px 6px 9px #34dded5e;
+    font-size: 37px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Peso da fonte */
+}
+
+id {
+    color: #34deed;
+    text-align: center;
+}
+
+h2 {
+    color: #56189d;
+    text-align: center;
+}
+
+p {
+    color: #d7f6f7;
+}
+
+.imgs-local1 {
+    position: relative;
+    display: flex;
+    /* Isso permite que os elementos dentro do container sejam exibidos em uma linha */
+    height: auto;
+    /* Para manter a proporção da imagem */
+    display: inline-block;
+}
+
+main {
+    margin-top: -1%;
+}
+
+img.imagem1 {
+    width: 18%;
+    margin-left: 25%;
+}
+
+img.imagem2 {
+    width: 15%;
+    margin-left: 30%;
+            }
+
+.nome-imagem1 {
+    position: absolute;
+    top: 2%;
+    /* Ajuste conforme necessário */
+    left: 34%;
+    /* Ajuste conforme necessário */
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    /* Espaçamento interno */
+    border-radius: 5px;
+    /* Borda arredondada */
+}
+
+.nome-imagem2 {
+    position: absolute;
+    top: 2%;
+    /* Ajuste conforme necessário */
+    left: 80%;
+    /* Ajuste conforme necessário */
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    /* Espaçamento interno */
+    border-radius: 5px;
+    /* Borda arredondada */
+}
+
+.corp-prancing {
+    color: #34deed;
+}
+
+.corp-vicious {
+    color: #932F72;
+}
+
+
+li.branco-c {
+    color: #FBF1F9;
+}
+
+li.sombra-m {
+    color: #BDB3E8;
+}
+
+li.azul-c {
+    color: #79F2DC;
+}
+
+li.azul-m {
+    color: #339398;
+}
+
+li {
+    color: #191A31;
+}
+
+li.roxo-e {
+    color: #A33BBF;
+}
+
+li.roxo-c {
+    color: #CF50F2;
+}
+
+li.amarelo-c {
+    color: #F6BE3D;
+}
+
+li.amarelo-e {
+    color: #E8A329;
+}
+
+
+                li.amarelo-m {
+                    color:  #F2E205;
+                }
+                li.bege-s-c {
+                    color: #D9734E;
+                }
+                li.bege-s-e {
+                    color: #B3433D;
+                }
+                li.roxo-c {
+                    color: #B959A7;
+                }
+                li.roxo-m {
+                   color:  #862676;
+                }
+                li.roxo-e {
+                    color: #44113B;
+                }
+                li.preto-e-roxo {
+                    color:  #13000E;
+                }
+                li.marrom-c {
+                    color: #B93D1C;
+                }
+                li.marrom-e {
+                    color: #762616;
+                }
+
+.ul-1 {
+    background-color: #49c5d84b;
+    display: inline-block;
+    margin-left: 27%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    border-radius: 1%;
+
+}
+
+.cor-h2 {
+    background: linear-gradient(135deg, #00eaff, #b23488);
+    /* Define o gradiente */
+    -webkit-background-clip: text;
+    /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent;
+    /* Define a cor do texto como transparente */
+    font-size: 27px;
+    /* Tamanho da fonte */
+}
+
+.ul-2 {
+    background-color: #8c49d84b;
+    display: inline-block;
+    margin-left: 27%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    border-radius: 1%;
+}
+
+footer {
+    background-color: rgba(29, 219, 229, 0.122);
+    border-radius: 3%;
+    margin: 1%;
+    padding-bottom: 2%;
+}
