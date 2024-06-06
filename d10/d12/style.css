@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(imagem-slimev.png);
+    
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+
+img {
+    width: 100% ;
+    
+}
+
+.imagem1 {
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    width: 100% ;
+    position: absolute;
+    display: center;
+    z-index: 1; /* Define a ordem de empilhamento da imagem de fundo */
+    
+}
+
+.personagem1 {
+    width: 100% ;
+    position: absolute;
+    display: center;
+    z-index: 2; /* Define a ordem de empilhamento da imagem de fundo */
+}
+
+.titulo-principal {
+    width: 50% ;
+    position: relative;
+    top: 200px;
+    left: 25%;
+    z-index: 3; /* Define a ordem de empilhamento da imagem de fundo */
+}
+
+.slimes1 {
+    width: 100% ;
+    z-index: 1; /* Define a ordem de empilhamento da imagem de fundo */
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
+    
+    
+}
+
+.slimes2 {
+    width: 100% ;
+    position: relative;
+    bottom: 100px;
+    z-index: 2; /* Define a ordem de empilhamento da imagem de fundo */
+    
+}
+   
+
+.imagem2 {
+    position: relative;
+}
+
+.imagem2div {
+    margin-top: -10%;
+    background-image: url('imagem2.jpg');
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.imagem3 {
+    margin-top: -3.89px;
+    
+}
+
+.imagem3div {
+    background-image: url('imagem3.png');
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagem5 {    
+    margin-top: 6%;
+    }
