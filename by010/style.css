@@ -181,6 +181,7 @@ li.amarelo-e {
 .cor-h2 {
     background: linear-gradient(135deg, #00eaff, #b23488);
     /* Define o gradiente */
+    background-clip: text;
     -webkit-background-clip: text;
     /* Aplica o gradiente ao texto */
     -webkit-text-fill-color: transparent;

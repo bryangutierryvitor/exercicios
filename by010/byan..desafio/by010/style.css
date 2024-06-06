@@ -182,6 +182,7 @@ li.amarelo-e {
     background: linear-gradient(135deg, #00eaff, #b23488);
     /* Define o gradiente */
     -webkit-background-clip: text;
+     background-clip: text;
     /* Aplica o gradiente ao texto */
     -webkit-text-fill-color: transparent;
     /* Define a cor do texto como transparente */
